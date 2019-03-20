@@ -193,7 +193,7 @@ queue_dir_size(Queue) ->
 queue_dir_name(Queue) ->
   VHost = queue_vhost(Queue),
   Name = queue_name(Queue),
-  %% http://hustoknow.blogspot.ru/2014/03/how-rabbitmq-computes-name-of-its.html
+  %% https://hustoknow.blogspot.ru/2014/03/how-rabbitmq-computes-name-of-its.html
   <<Num:128>> = erlang:md5(term_to_binary(rabbit_misc:r(VHost, queue, Name))),
   rabbit_misc:format("~.36B", [Num]).
 

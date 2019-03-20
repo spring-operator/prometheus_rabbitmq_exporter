@@ -5,7 +5,7 @@ Also exports Erlang VM and process metrics (~ 100 metrics in total).
 
 Implemented using [Erlang Prometheus.io client](https://github.com/deadtrickster/prometheus.erl)
 
-![rabbitmq prometheus exporter grafana dashboard](http://i.imgur.com/tWiDw56.png?1)
+![rabbitmq prometheus exporter grafana dashboard](https://i.imgur.com/tWiDw56.png?1)
 
 ## TOC
  - [Versioning](#versioning)
@@ -40,7 +40,7 @@ Plugin version should be read as follows: 3.7.1.x - where 3.7.1 is required Rabb
  - [Release for RabbitMQ 3.6.8 and 3.6.9](https://github.com/deadtrickster/prometheus_rabbitmq_exporter/releases/tag/rabbitmq-3.6.9.1);
  - [Release for RabbitMQ 3.6.5](https://github.com/deadtrickster/prometheus_rabbitmq_exporter/releases/tag/rabbitmq-3.6.5.9).
 
-Download suitable version and follow regular [RabbitMQ plugin installation instructions](http://www.rabbitmq.com/installing-plugins.html).
+Download suitable version and follow regular [RabbitMQ plugin installation instructions](https://www.rabbitmq.com/installing-plugins.html).
 
 ```
  rabbitmq-plugins enable prometheus_rabbitmq_exporter
